@@ -4,12 +4,10 @@ In this assignment, you're going put together everything you've learned about li
 
 ##Loading Dependencies
 
-For this project you should be using jQuery. Generally you can find the CDN by using google, but to get you up and running quickly we've included the CDN links below.
-
-**Paste this before the `</body>` tag:**
+For this project you should be using jQuery. Either use the link from the [Google Developer Libraries](https://developers.google.com/speed/libraries/#jquery), your jQuery Sublime snippet, or the link below before the `</body>` tag.
 
 ```html
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 ```
 
 ##Minimum Requirements
