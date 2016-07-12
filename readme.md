@@ -36,3 +36,9 @@ A working todo list. No sample screenshot this time.
 * Use [jquery-ui sortable](https://jqueryui.com/sortable/) to make the todo list sortable. We'll be going over this more in the context of jQuery plugins
 * Use the built-in HTML5 feature of local storage. Store your todo item into local storage. When your page is refreshed it will load the old todo items from localstorage.
   * [Local Storage And How To Use It On Websites](http://www.smashingmagazine.com/2010/10/11/local-storage-and-how-to-use-it/)
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
