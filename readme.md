@@ -9,13 +9,26 @@ In this assignment, you're going put together everything you've learned about li
   * `npm start` - start the BrowserSync server
   * `npm run lint:css` - lint CSS
   * `npm run lint:js` - lint JS
-* Load jQuery on the page by using a CDN link: [Google Developer Libraries] (https://developers.google.com/speed/libraries/#jquery).
+* Load jQuery on the page by using a CDN link. See below.
+
+#### Loading Dependencies
+
+For this project you should be using jQuery. Either use the link from the [Google Developer Libraries](https://developers.google.com/speed/libraries/#jquery) or the link below before the `</body>` tag.
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+```
 
 ## Requirements
 
 * A user should be able to add items to a 'todo' list from a form input using an input field and submit button.
 * The form should clear when the user submits a task and focus back on the todo item field.
 * On every item appended to the 'todo' list, have a way to delete the item. This could be in the form of a 'delete' link, a checkbox to mark it as active or inactive, or a plain button with an `X` on it.
+* Use **event delegation** so that clicking the `x` or other buttons removes the item. This will require setting up a click event on the main todoList container, and using `.on("click", ".childItemSelector", function() {})` to watch for behavior on newly appended items.
+
+## Deliverable
+
+A working todo list. No sample screenshot this time.
 
 ## Bonuses
 
