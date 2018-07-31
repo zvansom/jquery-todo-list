@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" />
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+
+  <h1>Time to get shit done!</h1>
+
+  <form id="formSubmit" action="">
+    <label for="input">Add stuff to your todo list!</label>
+    <input id="userInput" type="text" />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <h2>Drag items to set priority.</h2>
+
+  <div class="wrapper">
+    <ul id="todo-list-body">
+    </ul>
+
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
